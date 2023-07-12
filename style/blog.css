@@ -10,23 +10,23 @@ font-size: 20px;
 font-weight: 700;
 padding: 20px 43px;
 margin-top: 32px;
+text-align: center;
 
 }
 .header{
     background-color: #E554731A;
 }
 
-.header{
-    background-color: #E554731A;
+.text-primary{
+    color: #E55473;
 }
-
 .banner{
     margin: 0.5px 0px 0px 0px;
     display: flex;
     align-items: center;
 }
 .banner .profile-pic{
-    width: 635px;
+    width: 685px;
 
 }
 .banner-greeting{
@@ -52,25 +52,29 @@ margin-top: 32px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
-    padding: 5px 250px 24px 250px;
+    padding: 5px 250px 50px 250px;
 
 }
 main{
-    max-width:1140px;
+    
     margin: 0 auto;
     
 }
 
-.featured-container{
-     gap:24px;
-     display: flex ;
+.featured .featured-container{
+     gap:20px;
+     display:  flex ;
+     padding-bottom: 60px;
+
+    
      
 }
-
 .featured{
-    padding: 76px;
+    padding: 76px 76px; 
     
 }
+
+
 .featured1{
     border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
@@ -87,6 +91,26 @@ background: rgba(71, 125, 17, 0.15);
 }
 
 .pic-dis{
-    padding: 30px 30px 0px;
+    padding: 30px 30px 0px 0px;
+}
+ 
+.hot-deal{
+    background-color: #E554731A;
+    margin: 0.5px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    
+}
+.sign-btn{
+    border-radius: 5px;
+    background: #E55473;
+    border:0;
+    color: #FFF;
+font-size: 20px;
+font-weight: 700;
+padding: 20px 43px ;
+display: block;
+margin: auto;
+    
 }
 
