@@ -21,7 +21,7 @@ margin-top: 32px;
 }
 
 .banner{
-    padding: 0.5px 0px 0px 0px;
+    margin: 0.5px 0px 0px 0px;
     display: flex;
     align-items: center;
 }
@@ -38,3 +38,55 @@ margin-top: 32px;
     color: rgba(39, 39, 39, 0.60);
     padding-right: 171px;
 }
+.featured{
+    
+}
+.section-title{
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    padding: 10px 15px 0px 25px;
+    
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 250px 24px 250px;
+
+}
+main{
+    max-width:1140px;
+    margin: 0 auto;
+    
+}
+
+.featured-container{
+     gap:24px;
+     display: flex ;
+     
+}
+
+.featured{
+    padding: 76px;
+    
+}
+.featured1{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
+
+}
+.featured2{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.featured3{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15); 
+}
+
+.pic-dis{
+    padding: 30px 30px 0px;
+}
+
