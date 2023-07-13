@@ -61,6 +61,8 @@ main{
      display:  flex ;
      padding-bottom: 60px;
      padding-left: 200px;    
+     padding-right: 200px;    
+     
 }
 .featured{
     padding: 76px 76px; 
@@ -121,12 +123,18 @@ main{
     left: 400px;
     font-size: 20px;
     display: inline-block;
+    padding: 30px 30px 30px 150px;
 }
 .produce{
     border-radius: 8px;
     width: 500px;
-    height: 40px;
-    padding: 8px;
+    height: 23px;
+    border:0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px ;
+    margin: 0 auto; 
 }
 .sentence .head{
     text-align: center;
@@ -138,7 +146,7 @@ main{
     padding: 15px 25px;
     color: #FFFFFF;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 700px;
 }
 .sentence .love{
     text-align: center;
@@ -175,7 +183,9 @@ main{
 }
 .list{
     background-color: #FFFFFF;
-    padding-left: 100px;
+    /* padding-left: 100px; */
+
+    padding: 50px 250px 50px 250px;
 }
 .list .container{
     display: flex;
@@ -191,3 +201,16 @@ main{
     font-weight: 400;
     margin: 10px 500px;
 }
+
+#ibt{
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+ 
+.new-thing
+{
+    padding: 50px 250px 50px 250px;
+    max-width: 100%;
+}
+ 
